@@ -5,16 +5,18 @@ using UnityEngine;
 public class PlayerContoller : MonoBehaviour
 {
     [SerializeField] Rigidbody _playerRb;
+    [SerializeField] SwerveType swerveType;
     float _moveSpeed;
-
-    SwervingMovement swerveMove;
+    SwervingMovement swerveMove, _swerveSpeed;
     SwervingController swerveCnt;
+
 
     // Start is called before the first frame update
     void Start()
     {
+        float _swerveSpeed = swerveType.SwerveSpeed;
         swerveMove = FindObjectOfType<SwervingMovement>();
-        _moveSpeed = 5f;
+        _moveSpeed = _swerveSpeed;
     }
 
     // Update is called once per frame
@@ -33,6 +35,6 @@ public class PlayerContoller : MonoBehaviour
 
     private void Movement()
     {
-        _playerRb.velocity = new Vector3(_playerRb.velocity.x, _playerRb.velocity.y, _moveSpeed);   
+        _playerRb.velocity = new Vector3(_playerRb.velocity.x, _playerRb.velocity.y, _moveSpeed);
     }
 }

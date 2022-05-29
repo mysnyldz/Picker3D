@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3596a39209b5bbc48827ce7bd76b8375, type: 3}
   m_Name: Normal
   m_EditorClassIdentifier: 
-  SwerveSpeed: 10
-  MaxSwerveAmount: 4
+  SwerveSpeed: 8
+  MaxSwerveAmount: 5
   MaxMove_x: 4

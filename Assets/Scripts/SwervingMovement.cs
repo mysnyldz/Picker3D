@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class SwervingMovement : SwervingController
 {
-    [SerializeField] private SwerveType swerveType;
+    [SerializeField] public SwerveType swerveType;
     private float _swerveSpeed;
     private float _maxSwerveAmount;
     private float _maxMove_x;
