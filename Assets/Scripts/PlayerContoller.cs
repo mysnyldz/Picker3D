@@ -5,18 +5,16 @@ using UnityEngine;
 public class PlayerContoller : MonoBehaviour
 {
     [SerializeField] Rigidbody _playerRb;
-    [SerializeField] SwerveType swerveType;
+    [SerializeField] Magnet magnetType;
     float _moveSpeed;
-    SwervingMovement swerveMove, _swerveSpeed;
-    SwervingController swerveCnt;
-
+    SwervingMovement swerveMove;
 
     // Start is called before the first frame update
     void Start()
     {
-        float _swerveSpeed = swerveType.SwerveSpeed;
+        float _magnetSpeed = magnetType.MagnetSpeed;
         swerveMove = FindObjectOfType<SwervingMovement>();
-        _moveSpeed = _swerveSpeed;
+        _moveSpeed = _magnetSpeed;
     }
 
     // Update is called once per frame
