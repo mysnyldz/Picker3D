@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7412a656c138d4948a0dd2632599e308, type: 3}
   m_Name: Level2
   m_EditorClassIdentifier: 
-  TargetScore: 50
+  TargetScore: 1

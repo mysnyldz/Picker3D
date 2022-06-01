@@ -27,6 +27,7 @@ public class BasketColider : MonoBehaviour
 
     private void OnEnable()
     {
+        _level = GameManager.instance.GetExp();
         StartCoroutine(Wait());
         ball.text = (_counter + " / " + levelSOList.Levellist[_level].TargetScore).ToString();
     }
@@ -57,11 +58,12 @@ public class BasketColider : MonoBehaviour
             gameObject.SetActive(false);
             Bridge.SetActive(true);
             GameManager.instance.gameStatusCache = gameStatus.PLAY;
+            GameManager.instance.ExpCounter();
         }
         else
         {
             Debug.Log("Baþarýsýz");
-            GameManager.instance.gameStatusCache = gameStatus.FINISH;
+            GameManager.instance.Failed();
         }
     }
 }

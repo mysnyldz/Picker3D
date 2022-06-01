@@ -1,0 +1,852 @@
+fileFormatVersion: 2
+guid: 4979ebd4e9ba809458c81464fcbba62d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4951176657706825314
+    second: PortalSprite-PhotoRoom_0
+  - first:
+      213: 2141804355685151987
+    second: PortalSprite-PhotoRoom_1
+  - first:
+      213: -1367728758668762054
+    second: PortalSprite-PhotoRoom_2
+  - first:
+      213: 2361087966153394045
+    second: PortalSprite-PhotoRoom_3
+  - first:
+      213: 7644888161722292771
+    second: PortalSprite-PhotoRoom_4
+  - first:
+      213: -3565427564452435687
+    second: PortalSprite-PhotoRoom_5
+  - first:
+      213: -6501938903129006834
+    second: PortalSprite-PhotoRoom_6
+  - first:
+      213: 3012939910871002774
+    second: PortalSprite-PhotoRoom_7
+  - first:
+      213: -5676283872741356985
+    second: PortalSprite-PhotoRoom_8
+  - first:
+      213: 7917245083405455965
+    second: PortalSprite-PhotoRoom_9
+  - first:
+      213: -3128970598003691590
+    second: PortalSprite-PhotoRoom_10
+  - first:
+      213: -4978280235054531325
+    second: PortalSprite-PhotoRoom_11
+  - first:
+      213: -5116430395200385865
+    second: PortalSprite-PhotoRoom_12
+  - first:
+      213: 976774339232677000
+    second: PortalSprite-PhotoRoom_13
+  - first:
+      213: 6155813425933634634
+    second: PortalSprite-PhotoRoom_14
+  - first:
+      213: -7482341947104892412
+    second: PortalSprite-PhotoRoom_15
+  - first:
+      213: -3561507304000670019
+    second: PortalSprite-PhotoRoom_16
+  - first:
+      213: -7117851127023194460
+    second: PortalSprite-PhotoRoom_17
+  - first:
+      213: -4975915144751895046
+    second: PortalSprite-PhotoRoom_18
+  - first:
+      213: -3662254245394095048
+    second: PortalSprite-PhotoRoom_19
+  - first:
+      213: 6298246657918547807
+    second: PortalSprite-PhotoRoom_20
+  - first:
+      213: -2311441394001301461
+    second: PortalSprite-PhotoRoom_21
+  - first:
+      213: -100096031097898973
+    second: PortalSprite-PhotoRoom_22
+  - first:
+      213: -450599702655363190
+    second: PortalSprite-PhotoRoom_23
+  - first:
+      213: 2015918688157543255
+    second: PortalSprite-PhotoRoom_24
+  - first:
+      213: 8116322550662312402
+    second: PortalSprite-PhotoRoom_25
+  - first:
+      213: -267147694215568160
+    second: PortalSprite-PhotoRoom_26
+  - first:
+      213: -7573970133185781965
+    second: PortalSprite-PhotoRoom_27
+  - first:
+      213: 5813074212970466097
+    second: PortalSprite-PhotoRoom_28
+  - first:
+      213: -4309403270230587587
+    second: PortalSprite-PhotoRoom_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PortalSprite-PhotoRoom_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 916.6667
+        width: 183.2
+        height: 183.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99cd21ff03e94bb0800000000000000
+      internalID: -4951176657706825314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalSprite-PhotoRoom_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 916.6667
+        width: 183.2
+        height: 183.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f47ff6b6b739bd10800000000000000
+      internalID: 2141804355685151987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalSprite-PhotoRoom_2
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 916.6667
+        width: 183.2
+        height: 183.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a346676c0f9d40de0800000000000000
+      internalID: -1367728758668762054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalSprite-PhotoRoom_3
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 916.6667
+        width: 183.2
+        height: 183.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77c502eef444c020800000000000000
+      internalID: 2361087966153394045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalSprite-PhotoRoom_4
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 916.6667
+        width: 183.2
+        height: 183.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32adb0b5749181a60800000000000000
+      internalID: 7644888161722292771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalSprite-PhotoRoom_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 733.6667
+        width: 183.2
+        height: 183.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9192d64458e058ec0800000000000000
+      internalID: -3565427564452435687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalSprite-PhotoRoom_6
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 733.6667
+        width: 183.2
+        height: 183.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0dd3bf240974c5a0800000000000000
+      internalID: -6501938903129006834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalSprite-PhotoRoom_7
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 733.6667
+        width: 183.2
+        height: 183.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e201db2ec10d920800000000000000
+      internalID: 3012939910871002774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalSprite-PhotoRoom_8
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 733.6667
+        width: 183.2
+        height: 183.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a09f854e9c931b0800000000000000
+      internalID: -5676283872741356985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalSprite-PhotoRoom_9
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 733.6667
+        width: 183.2
+        height: 183.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52171cb474bfdd60800000000000000
+      internalID: 7917245083405455965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalSprite-PhotoRoom_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 550.6667
+        width: 183.2
+        height: 183.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf2951b1d9a394d0800000000000000
+      internalID: -3128970598003691590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalSprite-PhotoRoom_11
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 550.6667
+        width: 183.2
+        height: 183.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30df935908899eab0800000000000000
+      internalID: -4978280235054531325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalSprite-PhotoRoom_12
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 550.6667
+        width: 183.2
+        height: 183.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcc110e9a9cef8b0800000000000000
+      internalID: -5116430395200385865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalSprite-PhotoRoom_13
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 550.6667
+        width: 183.2
+        height: 183.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c3eab16133e8d00800000000000000
+      internalID: 976774339232677000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalSprite-PhotoRoom_14
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 550.6667
+        width: 183.2
+        height: 183.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4cca5c22b7dd6550800000000000000
+      internalID: 6155813425933634634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalSprite-PhotoRoom_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 367.6667
+        width: 183.2
+        height: 183.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40aeeca64a1692890800000000000000
+      internalID: -7482341947104892412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalSprite-PhotoRoom_16
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 367.6667
+        width: 183.2
+        height: 183.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6b4180afbf29ec0800000000000000
+      internalID: -3561507304000670019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalSprite-PhotoRoom_17
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 367.6667
+        width: 183.2
+        height: 183.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae2ba9ac10583d90800000000000000
+      internalID: -7117851127023194460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalSprite-PhotoRoom_18
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 367.6667
+        width: 183.2
+        height: 183.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afda3941a8ff1fab0800000000000000
+      internalID: -4975915144751895046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalSprite-PhotoRoom_19
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 367.6667
+        width: 183.2
+        height: 183.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8346e12da2f0d2dc0800000000000000
+      internalID: -3662254245394095048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalSprite-PhotoRoom_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 184.66667
+        width: 183.2
+        height: 183.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57b60147fdd76750800000000000000
+      internalID: 6298246657918547807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalSprite-PhotoRoom_21
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 184.66667
+        width: 183.2
+        height: 183.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b203b677c4c1cefd0800000000000000
+      internalID: -2311441394001301461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalSprite-PhotoRoom_22
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 184.66667
+        width: 183.2
+        height: 183.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328bbf6a0336c9ef0800000000000000
+      internalID: -100096031097898973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalSprite-PhotoRoom_23
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 184.66667
+        width: 183.2
+        height: 183.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87945335f52fb9f0800000000000000
+      internalID: -450599702655363190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalSprite-PhotoRoom_24
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 184.66667
+        width: 183.2
+        height: 183.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ba3b7bd5bf9fb10800000000000000
+      internalID: 2015918688157543255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalSprite-PhotoRoom_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.6666718
+        width: 183.2
+        height: 183.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d138b29b58f2a070800000000000000
+      internalID: 8116322550662312402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalSprite-PhotoRoom_26
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1.6666718
+        width: 183.2
+        height: 183.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e467b76696ea4cf0800000000000000
+      internalID: -267147694215568160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalSprite-PhotoRoom_27
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1.6666718
+        width: 183.2
+        height: 183.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f1b00ea4ad3e690800000000000000
+      internalID: -7573970133185781965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalSprite-PhotoRoom_28
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1.6666718
+        width: 183.2
+        height: 183.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b861d92303ca050800000000000000
+      internalID: 5813074212970466097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalSprite-PhotoRoom_29
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1.6666718
+        width: 183.2
+        height: 183.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37cff3de8ce134c0800000000000000
+      internalID: -4309403270230587587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e5046c2dd8e4976409d9a458f6577cf8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
