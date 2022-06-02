@@ -5,16 +5,16 @@ using UnityEngine;
 
 public class SaveManager : MonoBehaviour
 {
-    private int _level = 1;
-
+    private int _level;
     private void Awake()
     {
+        GameManager.instance.GameStart += _instance_GameStart;
     }
     private void Start()
     {
         GameManager.instance.LoadSave();
         GameManager.instance.Lvlup += _instance_Lvlup;
-        GameManager.instance.GameStart += _instance_GameStart;
+        //GameManager.instance.GameStart += _instance_GameStart;
     }
     private void _instance_GameStart(object sender, EventArgs e)
     {
@@ -34,35 +34,26 @@ public class SaveManager : MonoBehaviour
             Debug.Log("Loadlandý");
             BinaryFormatter bf = new BinaryFormatter();
             FileStream file = File.Open(path, FileMode.Open);
-            PlayerData_Storage data = bf.Deserialize(file) as PlayerData_Storage;
+            PlayerData data = (PlayerData)bf.Deserialize(file);
+
             _level = data.Level;
+
             file.Close();
-        }
-        else
-        {
-            Debug.LogError("Loadalanamadý Çünkü Save yok" + path);
         }
     }
     public void Save()
-    {   
-        
+    {
         string path = Application.persistentDataPath + "/playerData.dat";
-       
-            Debug.Log("Savelendi");
-            BinaryFormatter bf = new BinaryFormatter();
-            FileStream file = File.Create(path);
-            PlayerData_Storage data = new PlayerData_Storage();
-            data.Level = _level;
-            bf.Serialize(file, data);
-            file.Close();
-        
-        
-        
-        //FileStream file = File.Create(path);
-        
+        Debug.Log("Savelendi");
 
-        
-        
+        BinaryFormatter bf = new BinaryFormatter();
+        FileStream file = File.Create(path);
+        PlayerData data = new PlayerData();
+
+        data.Level = _level;
+        bf.Serialize(file, data);
+
+        file.Close();
     }
     private void OnDestroy()
     {
@@ -72,9 +63,7 @@ public class SaveManager : MonoBehaviour
 }
 
 [Serializable]
-class PlayerData_Storage
+class PlayerData
 {
-
     public int Level;
-
 }

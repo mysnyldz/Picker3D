@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
     [SerializeField] GameObject PlayButton;
+    [SerializeField] GameObject ExitButton;
     [SerializeField] private GameObject mainMenu;
     [SerializeField] private GameObject failed;
     [SerializeField] private GameObject lvl;
@@ -19,13 +20,21 @@ public class UIManager : MonoBehaviour
         GameManager.instance.MissionFail += _instance_MissionFail;
         GameManager.instance.MissionComp += _instance_MissionComp;
         GameManager.instance.Lvlup += _instance_Lvlup;
-        _updatelvlText();
+        GameManager.instance.GameStart += _instance_GameStart;
+        _updatelvlText(); 
+        _continuePlay();
     }
 
-    private void Instance_GameStart(object sender, System.EventArgs e)
+    private void _instance_GameStart(object sender, System.EventArgs e)
     {
         _updatelvlText();
-
+    }
+    private void _continuePlay()
+    {
+        if (GameManager.instance.GameStarted == true)
+        {
+            Play();
+        }
     }
     private void _instance_Lvlup(object sender, System.EventArgs e)
     {
@@ -44,12 +53,17 @@ public class UIManager : MonoBehaviour
         lvlNow.text = (GameManager.instance.GetLvl()).ToString();
         lvlNext.text = (GameManager.instance.GetLvl() + 1).ToString();
     }
-
+    public void Exit()
+    {
+        Application.Quit();
+    }
     public void Play()
     {
         mainMenu.SetActive(false);
         lvl.SetActive(true);
+        GameManager.instance.GameStarted = true;
         GameManager.instance.gameStatusCache = gameStatus.PLAY;
+        GameManager.instance.LoadSave();
     }
 
     public void GameFailed()
@@ -83,6 +97,7 @@ public class UIManager : MonoBehaviour
         GameManager.instance.MissionFail -= _instance_MissionFail;
         GameManager.instance.MissionComp -= _instance_MissionComp;
         GameManager.instance.Lvlup -= _instance_Lvlup;
+        GameManager.instance.GameStart -= _instance_GameStart;
     }
 
 }

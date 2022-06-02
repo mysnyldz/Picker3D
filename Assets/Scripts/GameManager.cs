@@ -8,28 +8,21 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance { get; private set; }
 
-    public gameStatus gameStatusCache;
+    public gameStatus gameStatusCache = gameStatus.NONE;
 
     public event EventHandler MissionComp;
     public event EventHandler MissionFail;
     public event EventHandler Lvlup;
-    public bool GameStarted = false;
     public event EventHandler GameStart;
+    public bool GameStarted = false;
 
-    [SerializeField] private levelSOList levelList;
+    [SerializeField]
+    private levelSOList levelList;
 
     private int _expCounter = 0;
-    private int _level = 1;
+    private int _level;
 
-    private void Start()
-    {
-        LoadSave();
-    }
 
-    public void LoadSave()
-    {
-        GameStart?.Invoke(this, EventArgs.Empty);
-    }
     private void Awake()
     {
         if (instance != null && instance != this)
@@ -42,6 +35,11 @@ public class GameManager : MonoBehaviour
             instance = this;
             DontDestroyOnLoad(gameObject);
         }
+    }
+
+    private void Start()
+    {
+        LoadSave();
     }
     public int GetExp() => _expCounter % 3;
     public int GetLvl() => _level;
@@ -72,6 +70,11 @@ public class GameManager : MonoBehaviour
         _expCounter = 0;
         SceneManager.LoadScene(0);
     }
+    public void LoadSave()
+    {
+        GameStart?.Invoke(this, EventArgs.Empty);
+    }
+
 }
 
 public enum gameStatus
